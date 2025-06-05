@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f1c1f;
+  color: white;
+  line-height: 1.6;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+.hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.hero-text span {
+  color: #f9ca24;
+}
+.hero-img img {
+  width: 250px;
+  border-radius: 10px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+.about-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+.about-text {
+  max-width: 500px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #f9ca24;
+  border: 1px solid #f9ca24;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #162b2f;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
