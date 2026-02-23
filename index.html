@@ -2,54 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rishav Shrestha | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h4>Hello I'm</h4>
-      <h1>Rishav <span>Shrestha</span></h1>
-      <p>IT Student</p>
-    </div>
-    <div class="hero-img">
-      <img src="photos/profile.jpg" alt="Rishav's photo" />
-    </div>
-  </section>
+<body class="bg-gray-950 text-white font-sans">
 
-  <!-- About Section -->
-  <section class="about">
-    <div class="about-img">
-      <img src="about.jpg" alt="Desk setup" />
-    </div>
-    <div class="about-text">
-      <h2>About Me</h2>
-      <p>I’m an enthusiastic IT student exploring design and development. I love working on digital products and tech projects.</p>
-      <a href="#" class="btn">Download Resume</a>
-    </div>
-  </section>
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full bg-black/70 backdrop-blur border-b border-gray-800 z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold">Rishav</h1>
+    <nav class="space-x-6 text-sm">
+      <a href="#home" class="hover:text-blue-400">Home</a>
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#projects" class="hover:text-blue-400">Projects</a>
+      <a href="#skills" class="hover:text-blue-400">Skills</a>
+      <a href="#contact" class="hover:text-blue-400">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Services Section -->
-  <section class="services">
-    <h2>My Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>Brand Design</h3>
-        <p>Creating impactful brand identities and visuals.</p>
+<!-- Hero Section -->
+<section id="home" class="min-h-screen flex items-center justify-center text-center px-6">
+  <div>
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm <span class="text-blue-400">Rishav Shrestha</span></h2>
+    <p class="text-gray-400 text-lg max-w-2xl mx-auto">Computer Science Student | Web Developer | Blockchain & AI Learner</p>
+    <div class="mt-6 space-x-4">
+      <a href="#projects" class="px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600">View Projects</a>
+      <a href="#contact" class="px-6 py-3 border border-gray-600 rounded-lg hover:bg-gray-800">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-900">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">About Me</h3>
+    <p class="text-gray-400 leading-relaxed">I am a computer science student from Nepal who loves building websites, learning machine learning, blockchain development, and software design. I enjoy creating real-world projects like library systems, banking systems, and dashboards.</p>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-10">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+        <h4 class="text-xl font-semibold">Library Management System</h4>
+        <p class="text-gray-400 text-sm mt-2">A system to manage books, users, and borrowing records.</p>
       </div>
-      <div class="card">
-        <h3>Product Design</h3>
-        <p>Designing intuitive user-centered interfaces.</p>
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+        <h4 class="text-xl font-semibold">Bank ATM System</h4>
+        <p class="text-gray-400 text-sm mt-2">Use case design and implementation of ATM transactions.</p>
       </div>
-      <div class="card">
-        <h3>Marketing Design</h3>
-        <p>Crafting digital content that drives engagement.</p>
+      <div class="bg-gray-900 p-6 rounded-xl shadow-lg">
+        <h4 class="text-xl font-semibold">College Website</h4>
+        <p class="text-gray-400 text-sm mt-2">Responsive website with courses, guest lectures, and tours.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<!-- Skills Section -->
+<section id="skills" class="py-20 bg-gray-900">
+  <div class="max-w-5xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-6">Skills</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <span class="bg-gray-800 px-4 py-2 rounded">HTML</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">CSS</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">JavaScript</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">Python</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">SQL</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">Machine Learning</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">Blockchain</span>
+      <span class="bg-gray-800 px-4 py-2 rounded">Git & GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p class="text-gray-400">GitHub: github.com/yourusername</p>
+    <p class="text-gray-400">LinkedIn: linkedin.com/in/yourprofile</p>
+  </div>
+</section>
+
+<footer class="py-6 text-center text-gray-500 border-t border-gray-800">
+  © 2026 Rishav Shrestha. All Rights Reserved.
+</footer>
+
 </body>
 </html>
