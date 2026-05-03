@@ -4,7 +4,7 @@
 
 **A developer portfolio built with pure HTML, CSS & JavaScript**
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-00f5c4?style=for-the-badge&logoColor=black)](https://rishavlc.github.io)
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-00f5c4?style=for-the-badge&logoColor=black)](https://www.shrestharishav.com.np)
 [![GitHub](https://img.shields.io/badge/GitHub-RishavLC-6366f1?style=for-the-badge&logo=github)](https://github.com/RishavLC)
 [![Twitter](https://img.shields.io/badge/Twitter-@RishavShre91604-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/RishavShre91604)
 [![Email](https://img.shields.io/badge/Email-shrestharishav444@gmail.com-00f5c4?style=for-the-badge&logo=gmail&logoColor=black)](mailto:shrestharishav444@gmail.com)
@@ -113,7 +113,7 @@ rishav-site/
 ├── index.html          # Main portfolio file (entire site)
 ├── README.md           # You are here
 │
-└── assets/             # (optional — add if you include images)
+└── assets/             # (include images)
     └── preview.png     # Portfolio screenshot for README
 ```
 
@@ -159,21 +159,11 @@ To make this your own, search and replace the following in `index.html`:
 
 ---
 
-## 🌍 Deployment
-
-### GitHub Pages (Free & Recommended)
-1. Push your code to a GitHub repository
-2. Go to **Settings → Pages**
-3. Set source to `main` branch → `/ (root)`
-4. Your site will be live at `https://yourusername.github.io/repo-name`
-
 ```
 
 ---
 
 ## 📸 Preview
-
-> _Add a screenshot of your portfolio here_
 
 ```
 assets/preview.png
