@@ -162,17 +162,11 @@ To make this your own, search and replace the following in `index.html`:
 ```
 
 ---
-
 ## 📸 Preview
 
-```
-assets/preview.png
-```
-
-To add a preview image, take a screenshot of your live portfolio and add it as:
-```markdown
-![Portfolio Preview](assets/preview.png)
-```
+<p align="center">
+  <img src="assets/preview.png" alt="Portfolio Preview" width="800"/>
+</p>
 
 ---
 
