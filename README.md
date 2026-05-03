@@ -159,8 +159,6 @@ To make this your own, search and replace the following in `index.html`:
 
 ---
 
-```
-
 ---
 ## 📸 Preview
 
